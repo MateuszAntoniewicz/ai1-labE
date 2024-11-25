@@ -1,0 +1,127 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia;
+    background-image: url('/tlo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tytulStrony{
+    background: linear-gradient(to right, rgb(19 131 33), rgb(37, 35, 36,1 ));
+    padding: 10px;
+    text-align: left;
+    padding-left: 30px;
+    border-bottom: 10px solid rgb(0, 0, 0, 0.5);
+}
+
+.tytulStrony h1{
+    color: white;
+    font-size: 2.75em;
+    text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    padding-left: 30px;
+    background: linear-gradient(to left, rgb(19 131 33), rgb(37, 35, 36,1 ));
+    align-items: center;
+}
+
+.przycisk{
+    background: rgb(19 131 33);
+    width: 150px;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: center;
+    color: white;
+    margin: 5px 0;
+    border-radius: 25px;
+    transition: background-color 0.3s, transform 0.3s;
+    text-shadow:
+            -1px -1px 0 black,
+            1px -1px 0 black,
+            -1px 1px 0 black,
+            1px 1px 0 black;
+}
+
+.przycisk:hover{
+    background-color: black;
+    transform: scale(1.1);
+}
+
+.listaKierowcow, .opisZespolow, .opisKierowcy{
+    flex: 1;
+    padding: 20px;
+    max-width: 1200px;
+    background: rgb(9 94 20);
+    margin: 10px 10px;
+    border-radius: 25px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    color: white;
+    text-shadow:
+            -1px -1px 0 black,
+            1px -1px 0 black,
+            -1px 1px 0 black,
+            1px 1px 0 black;
+}
+
+.listaKierowcow:hover, .opisZespolow:hover, .opisKierowcy:hover{
+    transform: scale(1.01);
+}
+
+.tekst{
+    padding-left: 25px;
+}
+
+.kontenerGlowny h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.kontenerGlowny h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.kontenerGlowny ul{
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 1.1em;
+    list-style-type: "\1F697";
+}
+
+.stopka{
+    text-align: center;
+    padding: 25px;
+    background: rgb(9 94 20);
+    position: relative;
+    bottom: 0;
+    margin-top: 20px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    color: white;
+    text-shadow:
+            -1px -1px 0 black,
+            1px -1px 0 black,
+            -1px 1px 0 black,
+            1px 1px 0 black;
+}
+
+
+
