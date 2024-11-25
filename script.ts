@@ -28,4 +28,5 @@ function createButtonStyle(containerID: string, link: string, name: string): voi
 
 loadCSS("style/style.css");
 createButtonStyle("menu", "style/style.css", "Klasa 1");
+createButtonStyle("menu", "style/style2.css", "Klasa 2");
 createButtonStyle("menu", "style/zmiana.css", "Zmiana tła");
